@@ -58,6 +58,10 @@ class Site:
         self.site_url = os.environ.get("SITE_URL", "").strip().rstrip("/") or DEFAULT_SITE_URL
         self.goatcounter = os.environ.get("GOATCOUNTER_URL", "").strip()
         self.support = os.environ.get("SUPPORT_URL", "").strip()
+        move = os.environ.get("MOVE_NOTICE_URL", "").strip()
+        if move and not re.match(r'^https://[a-z0-9.-]+\.[a-z]{2,}(/[^\s"<>]*)?$', move, re.I):
+            raise SystemExit(f"MOVE_NOTICE_URL must be an https address, got {move!r}")
+        self.move_notice = move
         self.support_label = os.environ.get("SUPPORT_LABEL", "").strip() or "Support Hum & Bell"
         self.guidance = json.loads((ROOT / "site" / "data" / "guidance.json").read_text(encoding="utf-8"))
         self.commit = os.environ.get("GITHUB_SHA", "").strip() or "local"
@@ -70,6 +74,13 @@ class Site:
         self.indexable = []
 
     # ----- helpers -----
+    def move_banner(self):
+        """Shown on every page while MOVE_NOTICE_URL is set, a few weeks before a domain move."""
+        if not self.move_notice:
+            return ""
+        url = attr(self.move_notice)
+        return '<aside class="move-notice" role="note"><p>' + 'Hum &amp; Bell is moving to <a href="{url}">{url}</a>. Favourites are kept in your browser for this address only; each one is a link, so open any you want to keep and save it again at the new address.'.replace("{url}", url) + '</p></aside>\n'
+
     def url(self, path):
         return f"{self.site_url}/{path}"
 
@@ -173,7 +184,7 @@ class Site:
 <nav class="nav" aria-label="Main">{nav}</nav>
 </div></header>
 <main id="main" class="wrap">
-{body}
+{self.move_banner()}{body}
 </main>
 <footer class="site-foot"><div class="wrap">
 <nav aria-label="Footer">{foot}<a href="{REPO_URL}">Source code</a></nav>
