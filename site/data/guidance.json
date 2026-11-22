@@ -1,0 +1,345 @@
+{
+  "about": "Guidance lines for Hum & Bell sessions. Plain, secular instructions; no claims about health or outcomes. Sessions pick lines from these lists with a seeded random number generator, so a shared link replays the same session. Ordered lists (body, kindness) are used in order.",
+  "practices": {
+    "breath": {
+      "name": "Breath",
+      "title": "Settle with the breath",
+      "summary": "Rest your attention on the feeling of breathing, and come back to it whenever you notice you've drifted.",
+      "main": "breath",
+      "late": "breath_late"
+    },
+    "counting": {
+      "name": "Counting",
+      "title": "Count the breath",
+      "summary": "Count breaths from one to ten, then start again. Losing count is part of it.",
+      "main": "counting",
+      "late": "counting_late"
+    },
+    "body": {
+      "name": "Body scan",
+      "title": "Body scan",
+      "summary": "Move your attention slowly through the body, from the feet to the head, noticing whatever is there.",
+      "main": "body",
+      "ordered": true,
+      "late": "body_late"
+    },
+    "sound": {
+      "name": "Listening",
+      "title": "Listening",
+      "summary": "Let sounds come and go, the session's own and the room's, without naming or judging them.",
+      "main": "sound",
+      "late": "sound_late"
+    },
+    "kindness": {
+      "name": "Kindness",
+      "title": "Kindness",
+      "summary": "Silently offer simple good wishes: to yourself, someone you love, someone you hardly know, and everyone.",
+      "main": "kindness",
+      "ordered": true,
+      "late": "kindness_late"
+    },
+    "word": {
+      "name": "A word",
+      "title": "Repeat a word",
+      "summary": "Silently repeat a simple word of your choosing, and let it become quieter and slower.",
+      "main": "word",
+      "late": "word_late"
+    },
+    "open": {
+      "name": "Open awareness",
+      "title": "Open awareness",
+      "summary": "Rest in whatever is happening, sounds, sensations, thoughts, without holding on to any of it.",
+      "main": "open",
+      "late": "open_late"
+    },
+    "gratitude": {
+      "name": "Gratitude",
+      "title": "Gratitude",
+      "summary": "Bring to mind, one at a time, a few things you're glad of today, and stay with each for a while.",
+      "main": "gratitude",
+      "late": "gratitude_late"
+    },
+    "silent": {
+      "name": "Silent timer",
+      "title": "Silent sitting",
+      "summary": "No voice. Just sound and bells to mark the start, the end, and any intervals you choose.",
+      "main": null,
+      "late": null
+    }
+  },
+  "lines": {
+    "arrive": [
+      "Welcome. Find a way of sitting or lying that you can stay with for a while.",
+      "Let's begin. Settle into your seat, and let your hands rest wherever they're comfortable.",
+      "Take a moment to arrive. There's nowhere else you need to be for the next little while.",
+      "Welcome to this session. Let your eyes close, or rest your gaze softly on the floor.",
+      "Find a comfortable position. Upright if you can, but not stiff.",
+      "Begin by noticing that you're here. Sitting, breathing, listening.",
+      "Let your body settle into whatever is supporting it: the chair, the cushion, the floor.",
+      "Welcome. Give yourself permission to set everything else aside, just for now.",
+      "Let's start by simply stopping. Nothing to do, nothing to fix.",
+      "Settle in. If it helps, take one slower breath than usual, and let it go.",
+      "Welcome. Let the sound fill the room, and let yourself be still in it.",
+      "Find a posture that feels steady and easy at the same time.",
+      "Begin by letting your shoulders drop a little, and your jaw loosen.",
+      "Welcome back to stillness. Take a moment to notice how you are, right now.",
+      "Arrive here, in this place, at this time. That's enough to begin with.",
+      "Let your hands rest. Let your face soften. Let's begin."
+    ],
+    "settle": [
+      "Notice the places where your body touches what's holding it.",
+      "Feel the weight of your body, and let it be held.",
+      "Notice the temperature of the air on your skin.",
+      "There's no right way to feel. Just notice what's here.",
+      "If your mind is busy, that's fine. Let it be busy in the background.",
+      "Let your breathing find its own pace. You don't need to control it.",
+      "Notice any sounds around you, near and far.",
+      "Let go of any effort you don't need.",
+      "Feel your feet, or whatever is touching the ground.",
+      "Soften around the eyes. Let the forehead be smooth.",
+      "If something is pulling at your attention, acknowledge it, and let it wait.",
+      "Notice the rise and fall of the body as it breathes.",
+      "Let each out-breath be a little letting go.",
+      "Let the drone carry you. You don't have to do anything with it.",
+      "Allow yourself to be exactly as you are.",
+      "Notice where in the body feels easy, and rest there for a moment."
+    ],
+    "breath": [
+      "Bring your attention to the breath. Wherever you feel it most clearly.",
+      "Notice the breath coming in, and the breath going out.",
+      "You might feel it at the nostrils, the chest, or the belly. Choose one place and rest there.",
+      "Feel the whole length of an in-breath, from its beginning to its end.",
+      "Notice the small pause at the end of each out-breath.",
+      "There's no need to breathe in any special way. Just notice the breath as it is.",
+      "Each breath is a little different. See if you can notice how.",
+      "Let your attention ride the breath, like resting on a gentle wave.",
+      "Notice the cool air coming in, and the slightly warmer air going out.",
+      "If the breath is shallow, let it be shallow. If it's deep, let it be deep.",
+      "Stay with this breath. And now this one.",
+      "Feel the belly rise as you breathe in, and fall as you breathe out.",
+      "Notice the moment the in-breath turns into the out-breath.",
+      "Let the breath breathe itself. You're just keeping it company.",
+      "Rest your attention on the breath as lightly as a feather.",
+      "Each time you return to the breath, it's a fresh start.",
+      "Notice the breath without trying to improve it.",
+      "Follow one full breath, in and out, as closely as you can."
+    ],
+    "breath_late": [
+      "Keep resting with the breath, gently.",
+      "If you've drifted, that's normal. Come back to the next breath.",
+      "Let the breath become the background of your attention, steady and easy.",
+      "Notice how the breath goes on by itself, moment after moment.",
+      "See if you can stay with the breath for just a few breaths at a time.",
+      "Rest in the rhythm of breathing.",
+      "Let your attention be soft, and the breath be close.",
+      "Nothing to achieve here. Just breathing, and knowing you're breathing."
+    ],
+    "counting": [
+      "On the next out-breath, count one. On the next, two. Count up to ten, then begin again at one.",
+      "Count each out-breath, quietly in your mind. One. Two. Three.",
+      "If you lose count, simply start again at one. That's part of the practice.",
+      "If you find you've counted past ten, smile at it, and begin again.",
+      "Let the number sit at the end of the breath, like a soft full stop.",
+      "Keep counting, one to ten, as slowly as the breath goes.",
+      "Each number is a small reminder to be here.",
+      "Notice the space between the numbers.",
+      "If counting feels effortful, let the numbers become quieter.",
+      "One breath, one number. Nothing more.",
+      "There's no prize for reaching ten. Starting again is just as good.",
+      "Keep the count light, and the breath easy."
+    ],
+    "counting_late": [
+      "Keep counting gently. Back to one whenever you lose your place.",
+      "If you like, let the counting fall away, and simply rest with the breath.",
+      "Count, or just breathe. Either is fine now.",
+      "Notice how often the mind wanders, and how often it comes back.",
+      "Let the numbers become slower, and softer."
+    ],
+    "body": [
+      "Bring your attention down to your feet. Notice whatever sensations are there.",
+      "Notice the soles of the feet, the toes, the tops of the feet.",
+      "Move your attention up to your ankles and lower legs.",
+      "Notice your knees, and the backs of the knees.",
+      "Bring your attention to your thighs, and the weight of your legs.",
+      "Notice your hips, and where you meet the seat beneath you.",
+      "Bring your attention to your lower back. Notice it without trying to change it.",
+      "Notice your belly, rising and falling with each breath.",
+      "Move up to your chest. Feel it widen a little with each in-breath.",
+      "Notice your upper back and shoulder blades.",
+      "Bring your attention to your hands. The palms, the fingers, the backs of the hands.",
+      "Notice your wrists, forearms and elbows.",
+      "Move up through the upper arms to the shoulders. Let them be heavy.",
+      "Notice your neck, front and back.",
+      "Bring your attention to your jaw. Let it soften.",
+      "Notice your mouth, your lips, your tongue resting in the mouth.",
+      "Notice your nose, and the breath moving through it.",
+      "Bring your attention to your eyes and the small muscles around them.",
+      "Notice your forehead and temples.",
+      "Move your attention to the top of your head.",
+      "Now widen your attention to include the whole body at once.",
+      "Feel the whole body sitting here, breathing."
+    ],
+    "body_late": [
+      "Rest with the sense of the whole body, from head to feet.",
+      "If any area calls for attention, visit it, then widen out again.",
+      "Notice the body as a field of changing sensations.",
+      "Let the whole body breathe."
+    ],
+    "sound": [
+      "Turn your attention to sound. Let sounds come to you; there's nothing to look for.",
+      "Notice the drone. Its low notes and its high notes.",
+      "Notice sounds in the room, and sounds beyond the room.",
+      "Let each sound arrive and fade, without following it.",
+      "Notice how sounds begin, and how they end.",
+      "If you find yourself naming a sound, let the name go, and just hear it.",
+      "Notice the quietest sound you can hear.",
+      "Notice the space in which sounds appear.",
+      "Let the sound move through you, like air through an open window.",
+      "Some sounds are pleasant, some aren't. Let them all be just sound.",
+      "Notice the texture of the sound: smooth, rough, steady, changing.",
+      "Listen as if you'd never heard these sounds before.",
+      "Notice the sound of your own breathing, among all the others.",
+      "Rest in listening."
+    ],
+    "sound_late": [
+      "Keep listening, openly and easily.",
+      "Let the sounds come and go on their own.",
+      "Notice the silence between and beneath the sounds.",
+      "Rest your attention in the whole field of sound.",
+      "If thoughts come, let them be one more sound, passing."
+    ],
+    "kindness": [
+      "Bring to mind yourself, as you are right now. Silently offer yourself these words: may I be safe.",
+      "May I be content. May I be at ease.",
+      "Let the words be sincere, even if they feel strange. Repeat them slowly: may I be safe, may I be content, may I be at ease.",
+      "Now bring to mind someone you love, or someone who has been kind to you. Picture them, or just think of them.",
+      "Offer them the same wishes. May you be safe. May you be content. May you be at ease.",
+      "Stay with them for a few breaths, repeating the words at your own pace.",
+      "Now bring to mind someone you hardly know: someone you passed today, or see now and then.",
+      "Offer them the same good wishes, as you would to a friend: may you be safe, may you be content, may you be at ease.",
+      "They have a whole life, like yours. Wish them well.",
+      "Now widen the circle, to everyone in this building, this street, this town.",
+      "May everyone be safe. May everyone be content. May everyone be at ease.",
+      "Let the circle grow to include all people, everywhere.",
+      "May all beings be safe. May all beings be content. May all beings be at ease."
+    ],
+    "kindness_late": [
+      "Keep repeating the words gently, for whoever comes to mind.",
+      "If the words feel empty, that's fine. The intention is enough.",
+      "Let the wishes settle, like a warm light, wherever you send them.",
+      "Rest for a while in simply wishing well.",
+      "Come back to the words whenever you notice you've drifted."
+    ],
+    "word": [
+      "Choose a simple word to repeat silently. One, or calm, or here. Whatever feels easy.",
+      "Begin to repeat your word silently, without moving your lips.",
+      "Let the word come easily, in its own time. There's no rhythm to keep.",
+      "If thoughts come, notice them, and gently return to your word.",
+      "Let the word become softer, as if it were further away.",
+      "There's no need to concentrate hard. Let the word be light.",
+      "If the word changes or fades, that's fine. Come back to it when you notice.",
+      "Let the word and the breath find each other, or not. Either is fine.",
+      "Repeat the word as if you were listening to it, rather than saying it.",
+      "Let the gaps between the words grow longer if they want to.",
+      "Each time you return to the word, return easily.",
+      "The word is just a place to rest."
+    ],
+    "word_late": [
+      "Keep returning to your word, lightly.",
+      "Let the word become quieter still.",
+      "If the word has fallen away and you're simply resting, rest.",
+      "Notice the quiet around the word.",
+      "Easy, unhurried, returning."
+    ],
+    "open": [
+      "Let your attention open. Nothing to focus on, nothing to keep out.",
+      "Notice whatever is most noticeable right now: a sound, a sensation, a thought.",
+      "Let experiences come and go, like weather passing through the sky.",
+      "If you notice thinking, you can silently note: thinking. Then let it go.",
+      "If you notice a sound, note: hearing. If a sensation: feeling.",
+      "Rest as the one who notices, rather than the things noticed.",
+      "Let your attention be wide, like a quiet room with the windows open.",
+      "Notice how everything changes, moment to moment.",
+      "There's no need to follow anything. Let it all pass through.",
+      "Notice when the mind settles, and when it stirs.",
+      "If you get caught up in something, notice that too, and open again.",
+      "Rest in the simple fact of being aware.",
+      "Let the drone, the breath, the body and the thoughts all be here together.",
+      "Nothing to hold. Nothing to push away."
+    ],
+    "open_late": [
+      "Keep resting in open awareness.",
+      "Let whatever arises, arise. Let whatever passes, pass.",
+      "Notice the stillness that's here alongside the movement.",
+      "Wide, open, easy.",
+      "If you've narrowed in on something, gently widen again."
+    ],
+    "gratitude": [
+      "Bring to mind one thing you're glad of today. It can be very small.",
+      "Stay with it for a few breaths. Notice how it feels to remember it.",
+      "Now bring to mind someone you're grateful for. Picture their face.",
+      "Notice what it is about them you appreciate.",
+      "Bring to mind something your body did for you today.",
+      "Think of a place you love, and let yourself be there for a moment.",
+      "Bring to mind a moment from this week that went well.",
+      "Notice something in this room you're glad to have.",
+      "Think of a meal, a conversation, or a walk you enjoyed recently.",
+      "Bring to mind someone who helped you without being asked.",
+      "Notice the simple fact of being able to sit here and breathe.",
+      "Let one more thing you're grateful for come to mind on its own.",
+      "Rest with whatever feeling is here, without needing to name it.",
+      "If nothing comes to mind, that's fine. Rest with the breath, and see what arrives."
+    ],
+    "gratitude_late": [
+      "Let the sense of gratitude settle, and rest in it.",
+      "If another thing you're glad of comes to mind, welcome it.",
+      "Rest in the breath, with a little warmth around it.",
+      "Let the feeling be as big or as small as it is."
+    ],
+    "wander": [
+      "If your mind has wandered, that's what minds do. Notice where it went, and come back.",
+      "Noticing that you've drifted is a moment of waking up. Gently return.",
+      "If you're lost in thought, there's no need to be hard on yourself. Simply begin again.",
+      "Wherever your attention is now, see if you can bring it home, kindly.",
+      "Thoughts will come. Let them pass like clouds, and come back.",
+      "If you're planning or remembering, let that be, and return to the practice.",
+      "Each return is the practice. Not staying, but coming back.",
+      "If you feel restless, let the restlessness be here too.",
+      "If you feel sleepy, you can sit up a little straighter, or open your eyes.",
+      "No need to chase the thoughts away. Just stop following them.",
+      "Come back, as many times as it takes.",
+      "Notice where you are right now. Then return, gently.",
+      "If a feeling is strong, let it be here, and stay with the practice alongside it.",
+      "However the session is going, it's going fine."
+    ],
+    "silence": [
+      "I'll leave you in silence for a while.",
+      "Let's continue in silence for a few minutes.",
+      "Stay with this in your own way for a while.",
+      "I'll be quiet now. The bell will bring you back.",
+      "Rest here in silence for a time.",
+      "Continue on your own now. There's no rush."
+    ],
+    "close": [
+      "In a few moments, the bell will sound. Stay with the practice until then.",
+      "Begin to let the practice go, and simply rest.",
+      "Notice how you are now. There's no need to judge it.",
+      "Let your attention widen to the whole body, sitting here.",
+      "Notice the sounds around you, and the room you're in.",
+      "Begin to bring a little movement back: fingers, toes, a gentle stretch.",
+      "When you're ready, let your eyes open, slowly.",
+      "Take a moment before moving on. Notice how this time felt.",
+      "Thank yourself for taking this time.",
+      "As you go on with your day, see if you can carry a little of this stillness with you.",
+      "Let the last sounds fade, and come back gently.",
+      "Before you move, take one easy breath.",
+      "Whatever happened in this session, you showed up for it.",
+      "Let's close here. Return to the room, in your own time."
+    ],
+    "interval": [
+      "Halfway. Gently come back to the practice.",
+      "A reminder to return, if you've drifted.",
+      "Notice where your attention is. Then begin again."
+    ]
+  }
+}

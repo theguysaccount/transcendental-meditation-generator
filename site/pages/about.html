@@ -1,0 +1,37 @@
+<!--
+{
+  "path": "about/",
+  "title": "About Hum & Bell: how sessions are made, privacy, and what it isn't | Hum & Bell",
+  "description": "How Hum & Bell composes sessions in your browser, what it records (nothing), where the voice comes from, and why it makes no health claims.",
+  "og": "home",
+  "nav": "about/"
+}
+-->
+<h1>About Hum & Bell</h1>
+<p class="lede">A free meditation session generator that runs entirely in your browser. No recordings, no account, no tracking.</p>
+
+<h2>How a session is made</h2>
+<ul>
+  <li><b>The plan.</b> Your choices and a random seed decide which guidance lines are spoken, when, and how long the silences are. The lines come from a library of {{line_count}} short, plain instructions written for this site. Practices that follow an order, such as the body scan, keep their order and are paced to fit your session.</li>
+  <li><b>The sound.</b> Your browser's Web Audio engine synthesizes everything live: a drone of slightly detuned tones through slowly moving filters, optional rain, ocean or a soft hush made from generated noise, an optional binaural tone, and bells built from the uneven overtones of a singing bowl.</li>
+  <li><b>The voice.</b> Guidance is spoken by your browser's built-in text-to-speech voices. Voices that run on your device are listed first; voices marked "online" are provided by your browser maker over the internet, which then receives the guidance text (never anything about you). You can turn the voice off and read captions instead.</li>
+  <li><b>The link.</b> Settings and the seed live in the page address, so the same link replays the same session for anyone.</li>
+</ul>
+
+<h2>What it isn't</h2>
+<ul>
+  <li><b>Not a health product.</b> Hum & Bell makes no claims about stress, sleep, anxiety, focus, blood pressure or anything else. It's a timer with sound and gentle prompts. It isn't medical advice and doesn't treat anything. If you're struggling, please talk to a doctor or someone you trust.</li>
+  <li><b>Not Transcendental Meditation.</b> Hum & Bell isn't affiliated with, endorsed by or connected to Transcendental Meditation or the organisations that teach it, and it doesn't teach the TM technique. "Transcendental Meditation" and "TM" are trademarks of their owners. The practices here are simple, widely taught ones; the word-repetition practice uses a word you choose yourself.</li>
+  <li><b>Not a religion.</b> Some practices come from contemplative traditions, Buddhist ones in particular, and their pages say so. The guidance itself is secular.</li>
+</ul>
+
+<h2>Safety</h2>
+<p>Keep the volume comfortable, especially with headphones. Don't use a session while driving or doing anything that needs your full attention. If any practice brings up something difficult, you can open your eyes, stop, and come back another time.</p>
+
+<h2>Privacy</h2>
+<p>Every page carries a Content Security Policy, enforced by your browser, that loads scripts only from this site and blocks every network request the page might try to make:</p>
+<pre><code>{{csp}}</code></pre>
+<p>Favourites and your chosen voice are saved in your browser's own storage on this device. {{privacy_line}}</p>
+
+<h2>Open source</h2>
+<p>The code and the guidance library are on <a href="{{repo_url}}">GitHub</a> under the MIT license. Problems or ideas: <a href="{{repo_url}}/issues">open an issue</a> (issues are public).</p>

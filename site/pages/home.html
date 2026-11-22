@@ -1,0 +1,116 @@
+<!--
+{
+  "path": "",
+  "title": "Hum & Bell: a free meditation session, generated fresh each time",
+  "description": "Pick a length and a practice. Get a meditation session made for you in your browser: a slow drone, bells, gentle voice guidance and a timer. Free, no app, no account.",
+  "og": "home",
+  "nav": "",
+  "scripts": ["app.js"],
+  "body_class": "app",
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Hum & Bell",
+      "url": "{{site_url}}/",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript and Web Audio",
+      "isAccessibleForFree": true,
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "description": "Generates meditation sessions in the browser: a synthesized drone, singing-bowl bells, optional binaural tone and background sound, browser-voiced guidance and a timer."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": "{{faq}}"
+    }
+  ],
+  "faq": [
+    ["Is it really free?", "Yes. There's no account, no subscription and no ads. Everything is generated in your browser, so there's nothing for us to charge for or store."],
+    ["Why does each session sound different?", "Each session gets its own random seed, which picks the guidance lines and shapes the drone. Copy the link at the end of a session to get exactly the same one again, or to share it."],
+    ["Where does the voice come from?", "From your own device or browser's built-in text-to-speech voices. Voices marked 'online' are provided by your browser's maker over the internet; the others run on your device. You can turn the voice off and read the captions instead, or choose 'No voice' for a silent session."],
+    ["Do I need headphones?", "Only for the binaural tone, which needs a slightly different pitch in each ear. Everything else works on speakers."],
+    ["Will it keep playing with the screen off?", "The sound and the bells keep going in most browsers. Spoken guidance can pause while the page is in the background, so the page asks your device to keep the screen on during a session, where that's supported."],
+    ["Can it help with stress, sleep or anxiety?", "Hum & Bell makes no health claims. It's a timer with sound and gentle prompts for quiet sitting. If you're struggling, please talk to a doctor or someone you trust."],
+    ["Is this Transcendental Meditation?", "No. Hum & Bell isn't affiliated with Transcendental Meditation or any organisation, and it doesn't teach the TM technique. Its practices are simple, widely taught ones, such as following the breath or repeating a word of your own choosing."]
+  ]
+}
+-->
+<noscript><p class="check bad">Hum & Bell makes its sessions with JavaScript and the Web Audio API. Please enable JavaScript.</p></noscript>
+
+<section id="build">
+  <div class="hero">
+    <h1>A meditation session, made fresh for you.</h1>
+    <p class="lede">Pick a length and a practice. Your browser composes the session: a slow drone, singing-bowl bells, gentle spoken guidance and a timer. Free, no app, no account.</p>
+  </div>
+
+  <div class="card daily">
+    <p class="eyebrow-in">Today's session</p>
+    <p id="daily-what"></p>
+    <button id="daily" class="btn" type="button">Start today's session</button>
+    <span class="small">The same for everyone today. A new one tomorrow.</span>
+  </div>
+
+  <form id="builder" class="card">
+    <h2>Make your own</h2>
+    <div id="builder-fields"></div>
+    <div id="voice-row" class="field"><label for="voice"><span>Voice</span></label> <select id="voice"></select> <span class="small">Voices are your browser's own. Ones marked online are spoken by your browser maker's service.</span></div>
+    <p id="no-voice" class="small" hidden>This browser has no text-to-speech voices, so guidance will appear as captions on screen.</p>
+    <p id="summary" class="summary" aria-live="polite"></p>
+    <p id="seed-note" class="small" hidden>This link replays one particular session. Change any setting for a fresh one.</p>
+    <p id="err" class="check bad" role="alert" hidden></p>
+    <div class="btn-row"><button class="btn big" type="submit">Begin</button></div>
+    <p class="small">Keep the volume comfortable, and don't listen while driving or doing anything that needs your attention.</p>
+  </form>
+
+  <section id="favs-wrap" hidden>
+    <h2>Your favourites</h2>
+    <ul id="favs" class="favs"></ul>
+  </section>
+
+  {{money_slot}}
+
+  <section>
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><b>Choose.</b> A length, a practice, and how much guidance you want. Fine-tune the drone, background sound and bells if you like.</li>
+      <li><b>Sit.</b> Your browser synthesizes the sound live and speaks the guidance with its own voice. A timer runs, bells mark the start, any intervals, and the end.</li>
+      <li><b>Keep or share it.</b> Every session has its own link. Save favourites, or send one to a friend so you can sit with the same session.</li>
+    </ol>
+    <p>Nothing is downloaded or recorded: there are no audio files. The guidance comes from a library of {{line_count}} short, plain instructions, arranged differently each time. <a href="{{root}}practices/">About the practices</a></p>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    {{faq_html}}
+  </section>
+</section>
+
+<section id="player" class="player" hidden aria-live="off">
+  <p class="eyebrow-in" id="p-title"></p>
+  <div id="clock" class="clock" role="timer" aria-label="Time remaining">0:00</div>
+  <div class="track" aria-hidden="true"><span id="bar"></span></div>
+  <p id="caption" class="caption" aria-live="polite"></p>
+  <div class="btn-row center">
+    <button id="pause" class="btn" type="button" aria-pressed="false">Pause</button>
+    <button id="mute" class="btn secondary" type="button" aria-pressed="false">Mute voice</button>
+    <button id="end" class="btn secondary" type="button">End</button>
+  </div>
+  <p class="small center">Space bar pauses. Close your eyes; the bells will bring you back.</p>
+</section>
+
+<section id="done" hidden>
+  <h2 id="done-title" tabindex="-1">Session complete</h2>
+  <p id="done-what"></p>
+  <div class="btn-row">
+    <button id="again" class="btn" type="button">Same session again</button>
+    <button id="new" class="btn secondary" type="button">A fresh one like it</button>
+    <button id="edit" class="btn secondary" type="button">Change settings</button>
+  </div>
+  <p><label for="done-link" class="small">Link to this exact session</label><br><input id="done-link" class="mono" type="text" readonly></p>
+  <div class="btn-row">
+    <button id="copy" class="btn small" type="button">Copy link</button>
+    <button id="fav" class="btn small secondary" type="button">Save as favourite</button>
+  </div>
+</section>

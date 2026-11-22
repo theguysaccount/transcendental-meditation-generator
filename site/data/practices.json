@@ -1,0 +1,163 @@
+{
+  "breath": {
+    "slug": "breath",
+    "title": "Breath meditation: how to rest with the breath",
+    "h1": "Settle with the breath",
+    "description": "How to meditate on the breath: where to put your attention, what to do when your mind wanders, and a free guided session from 5 to 60 minutes.",
+    "intro": "Following the breath is the most widely taught way to begin. The breath is always with you, it changes from moment to moment, and it gives your attention somewhere simple to rest.",
+    "steps": [
+      "Sit or lie in a position you can keep for the whole session. Upright and relaxed is ideal, but comfort matters more.",
+      "Let your eyes close, or rest your gaze on the floor a little way ahead.",
+      "Notice where you feel the breath most clearly: the nostrils, the chest or the belly. Choose one place.",
+      "Rest your attention there, feeling each breath come in and go out. Don't change how you breathe.",
+      "When you notice your mind has wandered, which it will, notice where it went, and bring it back to the next breath.",
+      "Keep returning, gently, until the bell."
+    ],
+    "notes": [
+      ["The mind keeps wandering.", "That's the practice, not a failure. Each time you notice and come back is a repetition, like lifting a weight."],
+      ["I'm trying to breathe 'properly'.", "There's no proper way here. Let the breath be shallow or deep, fast or slow, and just keep it company."],
+      ["I feel sleepy.", "Sit up a little straighter, open your eyes and look down, or try a shorter session at a time of day when you're more awake."]
+    ],
+    "lengths": [5, 10, 20]
+  },
+  "counting": {
+    "slug": "counting-breaths",
+    "title": "Counting breaths: a simple meditation for a busy mind",
+    "h1": "Count the breath",
+    "description": "How to count breaths from one to ten as a meditation, why losing count is fine, and a free guided session with voice, drone and bells.",
+    "intro": "Counting gives a busy mind a small job to do. Silently count each out-breath from one to ten, then start again. Breath counting has been taught for centuries, including in Zen.",
+    "steps": [
+      "Settle into your seat and let the breath find its own rhythm.",
+      "At the end of the next out-breath, silently count one. At the end of the next, two.",
+      "Count up to ten, then begin again at one.",
+      "If you lose count, or find yourself at fifteen, simply start again at one. No judgement needed.",
+      "As the count gets easier, let it get quieter, until it's barely a whisper in the mind."
+    ],
+    "notes": [
+      ["I never get to ten.", "Most people don't, at first. Starting again at one is exactly the practice."],
+      ["The counting feels mechanical.", "Let each number land softly at the end of the breath, like a full stop, and notice the pause before the next breath."],
+      ["Can I count in-breaths instead?", "Yes. Or count both: one on the in-breath, one on the out-breath. Choose what keeps you most awake."]
+    ],
+    "lengths": [5, 10, 15]
+  },
+  "body": {
+    "slug": "body-scan",
+    "title": "Body scan meditation: a guided tour from feet to head",
+    "h1": "Body scan",
+    "description": "How to do a body scan meditation, moving attention slowly from the feet to the head, plus a free guided body scan session you can start now.",
+    "intro": "In a body scan you move your attention slowly through the body, region by region, noticing whatever sensations are there: warmth, pressure, tingling, tension, or nothing much at all. It's widely taught in mindfulness courses.",
+    "steps": [
+      "Lie down or sit comfortably. Lying down works well if you won't fall asleep.",
+      "Start with the feet. Notice any sensations without trying to change them.",
+      "Move slowly up: ankles, legs, hips, belly, chest, back, hands, arms, shoulders, neck, face, the top of the head.",
+      "Spend a few breaths in each area. If there's no sensation, notice that.",
+      "Finish by feeling the whole body at once, breathing."
+    ],
+    "notes": [
+      ["I can't feel anything in some places.", "That's common. Noticing 'nothing much here' is noticing."],
+      ["I found tension.", "You don't have to fix it. Notice it, breathe, and move on. Sometimes it changes by itself."],
+      ["I fell asleep.", "Try sitting up, or a session earlier in the day. The guided session paces the scan to the length you choose."]
+    ],
+    "lengths": [10, 20, 30]
+  },
+  "sound": {
+    "slug": "listening",
+    "title": "Listening meditation: resting in sound",
+    "h1": "Listening",
+    "description": "A listening meditation: let sounds come and go without naming them. Includes a free guided session with a generated drone and optional rain or ocean sound.",
+    "intro": "Sound is always arriving. In this practice you let it come to you, near and far, pleasant and unpleasant, without naming it, following it or pushing it away. It suits noisy places well.",
+    "steps": [
+      "Sit comfortably and close your eyes.",
+      "Let your attention open to sound. There's nothing to look for; sounds will come.",
+      "Notice how each sound begins, changes and fades.",
+      "When you catch yourself naming a sound ('a car', 'the fridge'), let the name go and just hear it.",
+      "Notice the silence between and beneath sounds, too."
+    ],
+    "notes": [
+      ["The noise around me is annoying.", "Let annoyance be one more thing you notice. You don't have to like a sound to listen to it."],
+      ["I keep thinking about the sounds.", "Return to the raw experience of hearing: loudness, pitch, texture."],
+      ["Which background should I choose?", "Try 'Rain' or 'Ocean' in the session's sound settings, or no background at all and the room's own sounds."]
+    ],
+    "lengths": [5, 10, 20]
+  },
+  "kindness": {
+    "slug": "loving-kindness",
+    "title": "Loving-kindness meditation: simple phrases of good will",
+    "h1": "Kindness",
+    "description": "How to practise loving-kindness: silently offer simple wishes to yourself, someone you love, someone you hardly know, and everyone. Free guided session.",
+    "intro": "Loving-kindness practice, known in the Buddhist tradition as metta, uses a few simple phrases of good will, offered silently in widening circles. The phrases here are plain and secular: may you be safe, may you be content, may you be at ease.",
+    "steps": [
+      "Settle, and bring yourself to mind as you are right now.",
+      "Silently repeat: may I be safe, may I be content, may I be at ease.",
+      "Bring to mind someone you love, and offer them the same wishes.",
+      "Then someone you hardly know: a neighbour, a shopkeeper, someone you passed today.",
+      "Finally, widen the circle to everyone, everywhere."
+    ],
+    "notes": [
+      ["The words feel hollow.", "That's normal, especially at first. The intention matters more than the feeling."],
+      ["It's hard to wish myself well.", "Many people find this. You can start with someone you love, and come back to yourself later."],
+      ["Can I change the phrases?", "Yes. Any short, sincere wish works: may you be well, may you be peaceful, may you be free from harm."]
+    ],
+    "lengths": [10, 15, 20]
+  },
+  "word": {
+    "slug": "word-repetition",
+    "title": "Word repetition meditation: resting with a simple word",
+    "h1": "Repeat a word",
+    "description": "How to meditate by silently repeating a simple word of your choosing, letting it grow quieter. A free guided session with drone and bells.",
+    "intro": "Choose a simple word, such as one, calm or here, and repeat it silently, letting it become quieter and slower. Many traditions use a word or phrase this way. You don't need anyone to give you a word; choose one that feels neutral and easy.",
+    "steps": [
+      "Choose your word before you start, and keep it for the whole session.",
+      "Sit comfortably and close your eyes. Let the breath settle.",
+      "Begin repeating the word silently, without moving your lips.",
+      "Don't force a rhythm. Let the word come in its own time, and let it fade if it fades.",
+      "When you notice you're thinking about something else, return to the word, easily."
+    ],
+    "notes": [
+      ["Which word should I use?", "Something short and neutral: one, calm, here, peace. Avoid words that set off a chain of associations."],
+      ["The word disappeared.", "If you're resting quietly, that's fine. If you're lost in thought, come back to it."],
+      ["Should I match it to the breath?", "You can, but you don't have to. Let them find each other, or not."]
+    ],
+    "lengths": [10, 15, 20]
+  },
+  "open": {
+    "slug": "open-awareness",
+    "title": "Open awareness meditation: noticing whatever arises",
+    "h1": "Open awareness",
+    "description": "How to practise open awareness: rest in whatever arises, sounds, sensations, thoughts, without holding on. With optional noting and a free guided session.",
+    "intro": "Instead of one object, open awareness lets everything in: sounds, sensations, thoughts, moods. You rest as the one noticing, without following or resisting any of it. A light mental note, 'hearing', 'thinking', 'feeling', can help.",
+    "steps": [
+      "Begin with a few minutes on the breath to settle.",
+      "Let your attention widen until nothing is in the foreground.",
+      "Notice whatever is most obvious right now, then let it go and notice the next thing.",
+      "If it helps, label experiences lightly: hearing, thinking, feeling, seeing.",
+      "When you get caught up in a thought, notice that, and widen again."
+    ],
+    "notes": [
+      ["It feels too vague.", "Go back to the breath for a while, then try widening again. Noting can give it more shape."],
+      ["I keep getting lost.", "Getting lost and noticing is the practice. Wide attention is harder to keep than narrow; that's expected."],
+      ["Should I try to stop thoughts?", "No. Thoughts are part of what you notice."]
+    ],
+    "lengths": [10, 20, 30]
+  },
+  "gratitude": {
+    "slug": "gratitude",
+    "title": "Gratitude meditation: noticing what you're glad of",
+    "h1": "Gratitude",
+    "description": "A gratitude meditation: bring to mind a few things you're glad of, small or large, and stay with each. Free guided session with drone and bells.",
+    "intro": "This practice is a slow, quiet look at things you're glad of: a person, a place, a moment from this week, something your body did today. You don't have to feel anything in particular; just bring each one to mind and stay with it for a few breaths.",
+    "steps": [
+      "Settle with a few easy breaths.",
+      "Bring to mind one thing you're glad of today. It can be very small.",
+      "Stay with it. Notice the details, and how it feels to remember it.",
+      "Move on to something else: a person, a place, a recent moment.",
+      "Finish by resting with whatever feeling is there."
+    ],
+    "notes": [
+      ["Nothing comes to mind.", "Start with the simplest things: a warm drink, a bed, the breath itself."],
+      ["I feel I should be more grateful.", "There's no 'should' here. Notice what's there, however small."],
+      ["It's been a hard day.", "Gratitude doesn't deny difficulty. Both can be here. A short session is fine."]
+    ],
+    "lengths": [5, 10, 15]
+  }
+}
